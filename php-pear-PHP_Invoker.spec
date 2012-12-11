@@ -74,3 +74,18 @@ fi
 %{_datadir}/pear/PHP/*.php
 %{_datadir}/pear/packages/PHP_Invoker.xml
 
+
+
+%changelog
+* Sun Dec 18 2011 Oden Eriksson <oeriksson@mandriva.com> 1.0.0-2mdv2012.0
++ Revision: 743449
+- there's a new urpmi install ordering flaw, so working around that...
+- fix major breakage by careless packager
+
+* Wed Nov 16 2011 Oden Eriksson <oeriksson@mandriva.com> 1.0.0-1
++ Revision: 730879
+- import php-pear-PHP_Invoker
+
+
+* Wed Nov 16 2011 Oden Eriksson <oeriksson@mandriva.com> 1.0.0-1mdv2010.2
+- initial Mandriva package
